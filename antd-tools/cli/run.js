@@ -45,6 +45,7 @@ if (!task) {
 } else {
   console.log('antd-tools run', task);
 
+  // task 靠 gulp 实现
   require('../gulpfile');
 
   runTask(task);
